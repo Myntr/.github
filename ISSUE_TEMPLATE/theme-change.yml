@@ -1,0 +1,24 @@
+name: Theme change request
+description: A change or addition to a storefront theme
+body:
+  - type: input
+    id: ticket
+    attributes:
+      label: Jira ticket
+      description: Link or key. Theme changes have a ticket before work starts.
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The goal or problem behind the change.
+  - type: textarea
+    id: done
+    attributes:
+      label: How we will know it is done
+      description: Acceptance criteria, designs, or links.

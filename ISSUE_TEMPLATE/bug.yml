@@ -1,0 +1,34 @@
+name: Bug report
+description: Something on the site or in the repo is not working as expected
+labels: ["fix"]
+body:
+  - type: input
+    id: ticket
+    attributes:
+      label: Jira ticket
+      description: Link or key, if one exists (for example GC-123).
+  - type: textarea
+    id: what
+    attributes:
+      label: What is happening
+      description: What you see, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Page or theme
+      description: URL, preview link, or theme id where it happens.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Browser, device, screenshots
