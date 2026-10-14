@@ -2,6 +2,12 @@
 
 How we work in Revyrie Commerce theme repositories. This GitHub organization is still named `Myntr`; same team, new name.
 
+## Where work comes from
+
+Client requests come in through Asana and are managed by the project team. The
+project manager turns them into Jira tickets for developers. Every theme change
+starts from a Jira ticket, so ask for the ticket key and title before you begin.
+
 ## Branches
 
 Every theme repository has two long-lived branches:
